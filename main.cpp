@@ -153,6 +153,7 @@ int main() {
                         break;
 
                     case 2:
+                        cout << "Pastikan Relasi Atlit Pada Kompetisi Telah Dihapus Terlebih Dahulu!" << endl;
                         cout << "Masukkan Nama Kompetisi Yang Ingin Dihapus: ";
                         cin.ignore();
                         getline(cin, nama_compe);
@@ -233,7 +234,7 @@ int main() {
                         }
                         cout << "Tekan Enter Untuk Kembali Ke Menu";
                         cin.get();
-                        goto menu;
+                        goto menu2;
                         break;
                         
                     case 2:
@@ -251,7 +252,7 @@ int main() {
                         }
                         cout << "Tekan Enter Untuk Kembali Ke Menu";
                         cin.get();
-                        goto menu;
+                        goto menu2;
                         break;
 
                     case 3:
@@ -270,7 +271,7 @@ int main() {
                         }
                         cout << "Tekan Enter Untuk Kembali Ke Menu";
                         cin.get();
-                        goto menu;
+                        goto menu2;
                         break;
 
                     case 4:
@@ -278,7 +279,7 @@ int main() {
                         cout << "Tekan Enter Untuk Kembali" << endl;
                         cin.ignore();
                         cin.get();
-                        goto menu;
+                        goto menu2;
                         break;
                     
                     case 5:
@@ -286,7 +287,7 @@ int main() {
                         cout << "Tekan Enter Untuk Kembali Ke Menu";
                         cin.ignore();
                         cin.get();
-                        goto menu;
+                        goto menu2;
                         break;
                 }
 

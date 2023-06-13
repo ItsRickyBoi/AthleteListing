@@ -71,3 +71,4 @@ void printSpecificCompetition(list_competition L, string X);
 
 
 void deleteRelasiPlayer(addressRelasi& R, addressCompetition C);
+addressRelasi deallocateRelasi(addressRelasi& R);

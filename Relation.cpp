@@ -23,6 +23,8 @@ void insertRelasi(addressRelasi& R, addressCompetition C) {
 	}
 }
 
+
+
 void deleteRelasiPlayer(addressRelasi& R, addressCompetition C) {
     if (R == nil) {
         return; // Relation list is empty, nothing to delete
